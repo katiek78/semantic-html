@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;    
+    margin-left: 30px;      
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;    
+}
+
+header {
+    color: darkcyan;           
+}
+
+header * {
+    display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav li {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:darkorchid;
+}
+
+details summary { 
+    cursor: pointer;
+}
+
+details summary > * { 
+    display: inline;
+}
+
+form {
+    background-color: lightgrey;
+}
+
+article {
+    border-radius: 6px;
+    border: 1px solid #169b6f;
+    padding: 30px;
+    background-color: rgb(240, 240, 236);
+}
+
+article img {
+    max-height: 200px;    
+}
+
+article a {
+    color: #169b6f;
+}
+/* 33CC99, CC9933 */
