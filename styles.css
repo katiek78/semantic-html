@@ -37,6 +37,7 @@ details summary > * {
 
 form {
     background-color: lightgrey;
+    padding: 10px;
 }
 
 article {
@@ -44,6 +45,7 @@ article {
     border: 1px solid #169b6f;
     padding: 15px 30px;
     background-color: rgb(240, 240, 236);
+    margin-top: 10px;
 }
 
 article img {
@@ -53,13 +55,12 @@ article img {
 article a {
     color: #169b6f;
 }
-/* 33CC99, CC9933 */
 
 footer {    
     margin-top: 5px;
-    padding-left: 5px;
+    padding: 10px 5px;
     background-color: black;
-    color: #CCC;
+    color: #CCC;   
 }
 
 footer img {
