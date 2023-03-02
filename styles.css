@@ -8,19 +8,14 @@ h1 {
     text-transform: uppercase;    
 }
 
-header {
-    color: darkcyan;           
-}
-
 header * {
     display: inline;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0px;
     padding: 10px;
-    display: inline-block;
 }
 
 nav li {
@@ -29,7 +24,7 @@ nav li {
 
 a {
     text-decoration: none;
-    color:darkorchid;
+    color:darkorchid;    
 }
 
 details summary { 
@@ -59,3 +54,29 @@ article a {
     color: #169b6f;
 }
 /* 33CC99, CC9933 */
+
+footer {    
+    margin-top: 5px;
+    padding-left: 5px;
+    background-color: black;
+    color: #CCC;
+}
+
+footer img {
+    max-height: 50px;   
+}
+
+footer ul {
+    list-style-type: "| ";
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+}
+
+footer li {
+    margin: 10px;
+}
+
+footer a {
+    color: #AAA;
+}
