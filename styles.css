@@ -70,7 +70,7 @@ footer ul {
     list-style-type: "| ";
     margin: 0;
     padding: 10px;
-    display: inline-block;
+    display: inline;
 }
 
 footer li {
