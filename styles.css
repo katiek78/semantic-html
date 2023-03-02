@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;    
-    margin-left: 30px;      
+    padding-left: 20px;
 }
 
 h1 {
@@ -8,23 +8,20 @@ h1 {
     text-transform: uppercase;    
 }
 
-header * {
-    display: inline;
-}
-
-nav ul {
+nav ul {    
     list-style-type: none;
-    margin: 0px;
+    margin: 5px;
     padding: 10px;
 }
 
 nav li {
     margin: 20px;
+    display: inline;
 }
 
 a {
     text-decoration: none;
-    color:darkorchid;    
+    color:#9932cc;    
 }
 
 details summary { 
@@ -36,15 +33,15 @@ details summary > * {
 }
 
 form {
-    background-color: lightgrey;
+    background-color: #d3d3d3;
     padding: 10px;
 }
 
 article {
     border-radius: 6px;
-    border: 1px solid #169b6f;
+    border: 1px solid #203090;
     padding: 15px 30px;
-    background-color: rgb(240, 240, 236);
+    background-color: #eee;
     margin-top: 10px;
 }
 
@@ -53,7 +50,7 @@ article img {
 }
 
 article a {
-    color: #169b6f;
+    color: #203090;
 }
 
 footer {    
@@ -61,6 +58,7 @@ footer {
     padding: 10px 5px;
     background-color: black;
     color: #CCC;   
+    border-radius: 6px;
 }
 
 footer img {
@@ -71,7 +69,7 @@ footer ul {
     list-style-type: "| ";
     margin: 0;
     padding: 10px;
-    display: inline;
+    display: inline;    
 }
 
 footer li {
